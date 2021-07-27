@@ -191,6 +191,7 @@ const f_timeClock = () => {
  * @return {String}
  */
 const Main = event => {
+    const url = event.request.url;
     const PATH = url.match(/https:\/\/.+?(\/.*)$/)[1];
     console.log(PATH);
 
